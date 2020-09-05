@@ -40,7 +40,7 @@ export default {
       }, 1000);
     },
     getDiffInSeconds() {
-      return moment("2020-09-23 12:00:00").format("X") - this.actualTime;
+      return moment("2020-09-23 00:00:00").format("X") - this.actualTime;
     },
     compute() {
       var duration = moment.duration(this.getDiffInSeconds(), "seconds");
@@ -152,7 +152,7 @@ li {
   text-align: center;
 }
 .label {
-  color: #adafb2;
+  color: #414347;
   font-size: 18px;
   font-size: 1.5vw;
   text-transform: uppercase;
